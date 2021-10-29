@@ -2,12 +2,13 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\CollectorController;
-use App\Http\Controllers\RecordController;
-use App\Http\Controllers\ProfileUpdateController;
-use App\Http\Controllers\NewPasswordController;
-use App\Http\Controllers\ConnectController;
+use App\Http\Controllers\App_Controllers\AuthController;
+use App\Http\Controllers\App_Controllers\RecordController;
+use App\Http\Controllers\App_Controllers\NewPasswordController;
+use App\Http\Controllers\App_Controllers\PriceChartController;
+use App\Http\Controllers\App_Controllers\CollectorController;
+use App\Http\Controllers\App_Controllers\FarmerController;
+use App\Http\Controllers\App_Controllers\ConnectController;
 
 /*
 |--------------------------------------------------------------------------
